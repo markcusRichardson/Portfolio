@@ -1,0 +1,147 @@
+
+*{
+    margin:0;
+}
+
+/*Header css*/
+
+header{
+    background-color:black;
+    height:100px;
+    width:100%;
+    
+    z-index:200;
+}
+
+.HeaderContent{
+    color:white;
+    
+}
+header h1{
+    position:absolute;
+    margin-left:50px;
+    margin-top:30px;
+
+}
+
+.NavList{
+    text-align:right;
+    
+}
+
+.List{
+    position: relative;
+    display:inline-block;
+    margin-right:30px;
+    margin-top:40px;
+    font-size:20px;
+  
+    
+}
+/* Main picture*/
+#Main-Picture{
+    width:100%;
+    margin-left:0;
+    position:absolute;
+    border-top:rgb(205, 117, 80) 4px solid;
+}
+
+#FrontImage{
+    z-index:1;
+    width:100%;
+}
+
+
+/*Markcus Section*/
+
+.k{
+    text-align:center;
+    position:relative;
+    justify-content: center;
+    display:flex;
+    flex-direction: row;
+    
+    
+}
+
+/*About me*/
+#TextAboutme{
+    text-align:center;
+    display:flex;
+    align-items:center;
+    background-color:black;
+    justify-content:center;
+
+    color:white;
+    opacity:0.7;
+    height:100px;
+    width:200px;
+    margin-right:100px;
+    margin-top:250px;
+    
+}
+
+#AboutMeP{
+    display:none;
+}
+
+#AboutMeH3{
+    display:none;
+    margin-top:70px;
+    font-size:15px;
+    position:absolute;
+    
+}
+
+
+
+
+/* Professions */
+
+.TextProfessions{
+    text-align:center;
+    display:flex;
+    align-items:center;
+    background-color:black;
+    justify-content:center;
+
+    color:white;
+    opacity:0.7;
+    height:100px;
+    width:200px;
+    margin-right:100px;
+    margin-top:250px;
+}
+.TextProfessions ul{
+    list-style-type: none;
+    display:none;
+}
+
+
+
+/*Skills Hobbies*/
+
+.TextSkillsHobbies{
+    text-align:center;
+    display:flex;
+    align-items:center;
+    background-color:black;
+    justify-content:center;
+
+    color:white;
+    opacity:0.7;
+    height:100px;
+    width:200px;
+    margin-right:100px;
+    margin-top:250px;
+    
+}
+
+.TextSkillsHobbies ul{
+    list-style-type: none;
+    display:none;
+}
+
+
+
+
