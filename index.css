@@ -9,8 +9,8 @@ header{
     background-color:black;
     height:100px;
     width:100%;
-    
     z-index:200;
+    
 }
 
 .HeaderContent{
@@ -19,42 +19,29 @@ header{
 }
 header h1{
     position:absolute;
-    margin-left:50px;
+    margin-left:600px;
     margin-top:30px;
 
 }
 
-.NavList{
-    text-align:right;
-    
-}
 
-.List{
-    position: relative;
-    display:inline-block;
-    margin-right:30px;
-    margin-top:40px;
-    font-size:20px;
-  
-    
-}
+
 /* Main picture*/
 #Main-Picture{
     width:100%;
     margin-left:0;
     position:absolute;
     border-top:rgb(205, 117, 80) 4px solid;
+    
+    
 }
 
-#FrontImage{
-    z-index:1;
-    width:100%;
-}
+
 
 
 /*Markcus Section*/
 
-.k{
+.SectionMarkcus{
     text-align:center;
     position:relative;
     justify-content: center;
@@ -76,14 +63,12 @@ header h1{
     opacity:0.7;
     height:100px;
     width:200px;
-    margin-right:100px;
+    margin-right:250px;
     margin-top:250px;
     
 }
 
-#AboutMeP{
-    display:none;
-}
+
 
 #AboutMeH3{
     display:none;
@@ -96,9 +81,9 @@ header h1{
 
 
 
-/* Professions */
+/* Experience */
 
-.TextProfessions{
+#TextExperience{
     text-align:center;
     display:flex;
     align-items:center;
@@ -109,19 +94,25 @@ header h1{
     opacity:0.7;
     height:100px;
     width:200px;
-    margin-right:100px;
+    margin-right:210px;
     margin-top:250px;
+    margin-left:80px;
 }
-.TextProfessions ul{
-    list-style-type: none;
+
+#TextExperienceH3{
     display:none;
+    margin-top:70px;
+    font-size:15px;
+    position:absolute;
 }
+
+
 
 
 
 /*Skills Hobbies*/
 
-.TextSkillsHobbies{
+#TextSkillsHobbies{
     text-align:center;
     display:flex;
     align-items:center;
@@ -132,16 +123,287 @@ header h1{
     opacity:0.7;
     height:100px;
     width:200px;
-    margin-right:100px;
+    margin-right:25px;
     margin-top:250px;
+    margin-left:60px;
     
 }
 
-.TextSkillsHobbies ul{
-    list-style-type: none;
+
+
+#TextSkillsHobbiesH3{
     display:none;
+    margin-top:70px;
+    font-size:15px;
+    position:absolute;
+}
+
+
+/*Media*/
+
+.MyMedia{
+    margin-top:470px;
+    
+    
+}
+.MyMediaTitle{
+    position:relative;
+    width:100%;
+    height:64px;
+    Text-align:center;
+    font-size:22px;
+    background-color: black;
+    color:white;
+    
+}
+.MyMediaTitle h2{
+    padding-top:10px;
+}
+.Media{
+    position:absolute;
+    display:flex;
+    width:100%;
+    background-color: rgb(62, 67, 94);
+    padding: 2rem 0%;
+}
+
+.image-container{
+    background-color: white;
+    padding:20px;
+    border:4px solid black;
+}
+.image-container p{
+    Font-size: 30px;
+    line-height:1;
+    font-weight:700;
+}
+
+.MediaItem{
+    padding:10px;
+    display:flex;
+    margin-left:145px;
+}
+.MediaIMG{
+    Height:200px;
+    margin:0;
+    
+}
+.Content-Media{
+    display:flex;
+    justify-content: center;
+}
+
+/*About me css*/
+#AboutMe{
+    margin-top:350px;
+    
+}
+#AboutMeH1{
+    position:relative;
+    width:100%;
+    height:44px;
+    Text-align:center;
+    font-size:28px;
+    background-color: black;
+    color:white;
+    padding-top:15px;
+
+}
+
+.AboutMeText{
+    position:absolute;
+    display:flex;
+    width:100%;
+    background-color: rgb(62, 67, 94);
+    
+    
+}
+.AboutMeTextBox{
+    padding:40px;
+    padding-left:80px;
+    padding-right:80px;
+    text-align:center;
+    font-size:25px;
+    color:white;
+}
+
+/*Experience css*/
+#ExperienceSection{
+    margin-top:225px;
+    margin-bottom:660px;
+    
+}
+#ExperienceSectionH1{
+    position:relative;
+    width:100%;
+    height:44px;
+    Text-align:center;
+    font-size:28px;
+    background-color: black;
+    color:white;
+    padding-top:15px;
+
+}
+
+.ExperienceSectionText{
+    position:absolute;
+    display:flex;
+    width:100%;
+    background-color: rgb(62, 67, 94);
+    
+    
+}
+.ExperienceSectionTextBox{
+   display:flex;
+
+}
+.ImageEdu{
+    height:480px;
+    width:480px;
+   
+    
+}
+#OSGInfo{
+    width:250px;
+    text-align:center;
+    position:absolute;
+    margin-left:125px;
+    margin-top:10px;
+    font-size:20px;
+     
 }
 
 
 
 
+#CAVCInfo{
+    width:250px;
+    text-align:center;
+    position:absolute;
+    margin-left:125px;
+    margin-top:10px;
+    font-size:20px;
+    
+  
+}
+
+#CardiffmetInfo{
+    width:250px;
+    text-align:center;
+    position:absolute;
+    margin-left:125px;
+    margin-top:10px;
+    font-size:20px;
+  
+    
+}
+
+
+
+#ImageOSG{
+    opacity:0.5;
+    border-left:3px solid black;
+    
+}
+
+#ImageCardiffMet{
+    opacity:0.5;
+}
+#ImageCAVC{
+    opacity:0.5;
+    border-right:3px solid black;
+}
+
+
+
+
+
+
+
+/*Skkills/hobbies*/
+#SkillsHobbiesSection{
+    margin-top:250px;
+    position:absolute;
+    width:100%;
+    background-color: rgb(62, 67, 94);
+    
+}
+
+
+#SkillsHobbiesSectionH1{
+    position:relative;
+    width:100%;
+    height:44px;
+    Text-align:center;
+    font-size:28px;
+    background-color: black;
+    color:white;
+    padding-top:15px;
+
+}
+
+.SkillsHobbiesSectionText{
+    position:absolute;
+    display:flex;
+    width:100%;
+    background-color: rgb(62, 67, 94);
+    
+    
+}
+.SkillsHobbiesSectionTextBox{
+    padding:40px;
+    padding-left:80px;
+    padding-right:80px;
+    text-align:center;
+    font-size:25px;
+    color:white;
+}
+
+
+#TechnicalSkills{
+    display:flex;
+    
+}
+
+#TechnicalSkillsList{
+    display:flex;
+    font-size:15px;
+    
+    
+}
+#TechnicalSkillsH1{
+    margin-bottom: 20px;
+    font-size:20px;
+}
+
+#TechnicalSkillsList h2{
+    
+}
+
+.ContainerstechSkills{
+    border:4px solid black;
+    margin: 5px;
+    padding:10px;
+    background-color:rgb(83, 78, 78);
+}
+#SoftskillsH1{
+    margin-top:100px;
+    font-size:20px;
+    margin-bottom: 20px;
+}
+
+#Softskills{
+    display:flex;
+}
+
+#SoftskillsList{
+    display:flex;
+    font-size:15px;
+}
+
+.ContainerstechSoftskills{
+    border:4px solid black;
+    margin: 5px;
+    padding:10px;
+    background-color:rgb(83, 78, 78);
+}
